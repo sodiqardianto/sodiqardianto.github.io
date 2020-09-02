@@ -1,0 +1,157 @@
+.navbar {
+    margin-bottom: 0px;
+}
+
+
+.jumbotron {
+    background-image: url(../img/dashboard.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    padding-top: 230px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+    font-size: 30px;
+}
+
+.jumbotron .display-3 {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+
+
+/* DIVIDER HR */
+.divider {
+    /* minor cosmetics */
+    display: table;
+    font-size: 24px;
+    text-align: center;
+    width: 75%;
+    /* divider width */
+    margin: -10px auto;
+    /* spacing above/below */
+}
+
+.divider span {
+    display: table-cell;
+    position: relative;
+}
+
+.divider span:first-child,
+.divider span:last-child {
+    width: 50%;
+    top: 45px;
+    /* adjust vertical align */
+    -moz-background-size: 100% 2px;
+    /* line width */
+    background-size: 100% 2px;
+    /* line width */
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+}
+
+.divider span:first-child {
+    /* color changes in here */
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#ffffff));
+    background-image: -webkit-linear-gradient(180deg, transparent, #ffffff);
+    background-image: -moz-linear-gradient(180deg, transparent, #ffffff);
+    background-image: -o-linear-gradient(180deg, transparent, #ffffff);
+    background-image: linear-gradient(90deg, transparent, #ffffff);
+}
+
+.divider span:nth-child(2) {
+    color: white;
+    padding: 0px 10px;
+    width: auto;
+    white-space: nowrap;
+}
+
+.divider span:last-child {
+    /* color changes in here */
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(transparent));
+    background-image: -webkit-linear-gradient(180deg, #ffffff, transparent);
+    background-image: -moz-linear-gradient(180deg, #ffffff, transparent);
+    background-image: -o-linear-gradient(180deg, #ffffff, transparent);
+    background-image: linear-gradient(90deg, #ffffff, transparent);
+}
+
+section {
+    min-height: 450px;
+}
+
+.half {
+    width: 150px;
+    border-top: 2px solid #999;
+}
+
+.row img {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #eeeeee;
+}
+
+.middle-text {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+}
+
+.middle-text-contact {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+.experience {
+    background-color: #e3e3e3;
+}
+
+.contact {
+    background-color: #5c5c5c;
+}
+
+.fa-star {
+    border-radius: 100px;
+    color: blue;
+}
+
+section .no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+section .ability-title {
+    display: inline-block;
+    width: 60%;
+}
+
+section .ability-score {
+    float: right;
+}
+
+section .linked {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+
+a:hover {
+    color: black;
+}
+
+
+/* DESKTOP VERSION */
+@media (min-width:992px) {
+
+    .jumbotron .display-4 {
+        font-size: 40px;
+    }
+
+    .jumbotron .display-3 {
+        font-size: 70px;
+    }
+}
